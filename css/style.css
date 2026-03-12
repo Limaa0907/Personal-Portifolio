@@ -846,4 +846,15 @@ footer {
     text-align: center;
   }
 
+  .stars {
+    padding-right: 10px;
+  }
+
+  .skills-logos {
+    min-height: 20px;
+  }
+
+  .backend {
+    grid-template-columns: none;
+  }
 }
