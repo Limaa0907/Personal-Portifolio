@@ -25,6 +25,7 @@ body {
       transparent 40%
     ),
     #0a0a0a;
+    overflow-x: hidden;
 }
 
 main {
@@ -575,7 +576,7 @@ ul {
 
 .skills-logos img {
   width: 42px;
-  transition: transform 0.25s ease;
+  transition: transform 0.25s ease; 
 }
 
 .skills-logos img:hover {
@@ -583,7 +584,7 @@ ul {
 }
 
 .skills-logos {
-  display: grid;
+  display: grid; 
   gap: 18px;
 }
 
@@ -593,6 +594,7 @@ ul {
 
   padding: 16px;
   border-radius: 10px;
+  width: max-content;
 
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -851,7 +853,7 @@ footer {
   }
 
   .skills-logos {
-    min-height: 20px;
+    min-width: 30px;
   }
 
   .backend {
